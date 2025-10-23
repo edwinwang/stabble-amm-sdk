@@ -6,7 +6,7 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
-anchor-lang = "0.31"
+anchor-lang = "0.31.0"
 anyhow = "1.0.86"
 jupiter-amm-interface = { git = "https://github.com/edwinwang/jupiter-amm-interface" }
 rust_decimal = "1.26.1"
