@@ -1,7 +1,7 @@
 //! Anchor-compatible SDK for the stable_swap program.
 #![allow(unused)]
 
-#[cfg(feature = "jupiter-amm")]
+// #[cfg(feature = "jupiter-amm")]
 pub mod account_meta_for_swap;
 #[cfg(feature = "jupiter-amm")]
 pub mod amm;
