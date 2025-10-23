@@ -2,12 +2,12 @@
 #![allow(unused)]
 
 #[cfg(feature = "jupiter-amm")]
-pub mod amm;
+pub mod account_meta_for_swap;
+// #[cfg(feature = "jupiter-amm")]
+// pub mod amm;
 pub mod contexts;
 pub mod pda;
 pub mod pool;
-pub mod account_meta_for_swap;
-
 
 use crate::contexts::*;
 use anchor_lang::prelude::*;
