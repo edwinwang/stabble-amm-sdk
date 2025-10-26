@@ -3,8 +3,8 @@
 
 #[cfg(feature = "jupiter-amm")]
 pub mod account_meta_for_swap;
-#[cfg(feature = "jupiter-amm")]
-pub mod amm;
+// #[cfg(feature = "jupiter-amm")]
+// pub mod amm;
 pub mod contexts;
 pub mod pda;
 pub mod pool;
